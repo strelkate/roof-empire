@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+	font-family: 'ClearSans-Light';
+	src: url('../assets/fonts/ClearSansLight.woff') format('woff'), url('../assets/fonts/ClearSansLight.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ClearSans-Regular';
+	src: url('../assets/fonts/ClearSansRegular.woff') format('woff'), url('../assets/fonts/ClearSansRegular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans-NarrowBold';
+	src: url('../assets/fonts/PTSansNarrowBold.woff') format('woff'), url('../assets/fonts/PTSansNarrowBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}

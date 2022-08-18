@@ -1,0 +1,54 @@
+@import "variables";
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: $font-family-clear-sans-regular;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: $color-text;
+	background: $color-background;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+
+li {
+	color: $color-main-dark;
+}
+
+li span {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	&:hover {
+		color: $color-main-dark;
+	}
+}
+
+.container {
+	margin: auto;
+	width: 100%;
+	max-width: 1256px;
+
+	&__2 {
+		margin: auto;
+		width: 100%;
+		max-width: 960px;
+	}
+}
